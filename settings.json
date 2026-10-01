@@ -1,0 +1,24 @@
+{
+  "theme": "dark",
+  "lastChangelogVersion": "0.99.2",
+  "enabledModels": [
+    "github-copilot/*"
+  ],
+  "defaultModel": "gpt-5.6-luna",
+  "defaultThinkingLeve": "max",
+  "tuiMode": "regular",
+  "fullscreenExitOutput": "transcript",
+  "packages": [
+    "npm:pi-open-tui",
+    "npm:pi-web-access",
+    "npm:pi-herdr-agents",
+    "npm:pi-lens",
+    "npm:pi-memory",
+    "npm:@ff-labs/pi-fff",
+    "npm:pi-droid",
+    "npm:pi-caveman"
+  ],
+  "defaultProvider": "github-copilot",
+  "defaultThinkingLevel": "max",
+  "externalEditor": "nvim"
+}
