@@ -1,0 +1,65 @@
+{
+  "status": {
+    "enabled": true
+  },
+  "models": {
+    "agents": {},
+    "tasks": {
+      "coding": [
+        "openai-codex/gpt-6-luna",
+        "openai-codex/gpt-6-sol",
+        "openai-codex/gpt-6-astra",
+        "openai-codex/gpt-6.1-sol"
+      ],
+      "review": [
+        "openai-codex/gpt-6-luna",
+        "openai-codex/gpt-6-sol",
+        "openai-codex/gpt-6-astra",
+        "openai-codex/gpt-6.1-sol"
+      ],
+      "recon": [
+        "openai-codex/gpt-6-luna",
+        "openai-codex/gpt-6-sol",
+        "openai-codex/gpt-6-astra",
+        "openai-codex/gpt-6.1-sol"
+      ],
+      "qa": [
+        "openai-codex/gpt-6-luna",
+        "openai-codex/gpt-6-sol",
+        "openai-codex/gpt-6-astra",
+        "openai-codex/gpt-6.1-sol"
+      ],
+      "architecture": [
+        "openai-codex/gpt-6-luna",
+        "openai-codex/gpt-6-sol",
+        "openai-codex/gpt-6-astra",
+        "openai-codex/gpt-6.1-sol"
+      ],
+      "docs": [
+        "openai-codex/gpt-6-luna",
+        "openai-codex/gpt-6-sol",
+        "openai-codex/gpt-6-astra",
+        "openai-codex/gpt-6.1-sol"
+      ]
+    },
+    "tasksMeta": {
+      "generatedAt": "2026-10-04T09:26:10Z",
+      "method": "registry-only"
+    }
+  },
+  "roles": {
+    "bundled": true
+  },
+  "persistent": {
+    "maxAgents": 3
+  },
+  "supervision": {
+    "forcePolling": false,
+    "hangWarningMinutes": 15
+  },
+  "panes": {
+    "mode": "grouped",
+    "direction": "right",
+    "maxPerTab": 4
+  }
+}

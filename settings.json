@@ -1,10 +1,10 @@
 {
   "theme": "dark",
-  "lastChangelogVersion": "0.99.2",
+  "lastChangelogVersion": "1.0.2",
   "enabledModels": [
-    "github-copilot/*"
+    "openai-codex/*"
   ],
-  "defaultModel": "gpt-5.6-luna",
+  "defaultModel": "gpt-6-luna",
   "defaultThinkingLeve": "max",
   "tuiMode": "regular",
   "fullscreenExitOutput": "transcript",
@@ -18,7 +18,7 @@
     "npm:pi-droid",
     "npm:pi-caveman"
   ],
-  "defaultProvider": "github-copilot",
+  "defaultProvider": "openai-codex",
   "defaultThinkingLevel": "max",
   "externalEditor": "nvim"
 }
