@@ -5,7 +5,8 @@
     "github-copilot/*"
   ],
   "defaultModel": "gpt-6-luna",
-  "defaultThinkingLeve": "max",
+  "defaultProvider": "github-copilot",
+  "defaultThinkingLevel": "high",
   "tuiMode": "regular",
   "fullscreenExitOutput": "transcript",
   "packages": [
@@ -19,8 +20,6 @@
     "npm:@juicesharp/rpiv-ask-user-question",
     "npm:@juicesharp/rpiv-todo"
   ],
-  "defaultProvider": "github-copilot",
-  "defaultThinkingLevel": "high",
   "subagents": {
     "defaultModel": "github-copilot/gpt-6-luna",
     "defaultProvider": "github-copilot",
@@ -32,5 +31,6 @@
       ]
     }
   },
-  "externalEditor": "nvim"
+  "externalEditor": "nvim",
+  "hideThinkingBlock": false
 }

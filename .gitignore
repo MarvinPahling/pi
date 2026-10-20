@@ -10,3 +10,5 @@
 /pi-subagents/last-seen-version.json
 /skills
 /crashes.json
+/worktrees
+/subagent-review-inputs
