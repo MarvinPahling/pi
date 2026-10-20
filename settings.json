@@ -18,7 +18,9 @@
     "npm:billion-context",
     "npm:pi-subagents",
     "npm:@juicesharp/rpiv-ask-user-question",
-    "npm:@juicesharp/rpiv-todo"
+    "npm:@juicesharp/rpiv-todo",
+    "npm:@gotgenes/pi-permission-system",
+    "npm:pi-background-tasks@latest"
   ],
   "subagents": {
     "defaultModel": "github-copilot/gpt-6-luna",
