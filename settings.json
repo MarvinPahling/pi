@@ -1,6 +1,6 @@
 {
   "theme": "dark",
-  "lastChangelogVersion": "1.3.0",
+  "lastChangelogVersion": "1.4.0",
   "enabledModels": [
     "github-copilot/*"
   ],
@@ -19,7 +19,6 @@
     "npm:pi-subagents",
     "npm:@juicesharp/rpiv-ask-user-question",
     "npm:@juicesharp/rpiv-todo",
-    "npm:@gotgenes/pi-permission-system",
     "npm:pi-background-tasks@latest"
   ],
   "subagents": {
