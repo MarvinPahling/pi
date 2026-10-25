@@ -2,7 +2,9 @@
   "theme": "dark",
   "lastChangelogVersion": "1.4.0",
   "enabledModels": [
-    "github-copilot/*"
+    "github-copilot/*",
+    "openai-codex/*",
+    "openrouter/openrouter/free"
   ],
   "defaultModel": "gpt-6-luna",
   "defaultProvider": "github-copilot",
