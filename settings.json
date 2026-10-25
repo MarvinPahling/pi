@@ -1,13 +1,9 @@
 {
   "theme": "dark",
   "lastChangelogVersion": "1.4.0",
-  "enabledModels": [
-    "github-copilot/*",
-    "openai-codex/*",
-    "openrouter/openrouter/free"
-  ],
-  "defaultModel": "gpt-6-luna",
-  "defaultProvider": "github-copilot",
+  "enabledModels": ["openrouter/openrouter/free", "openai-codex/gpt-6-luna"],
+  "defaultModel": "openrouter/free",
+  "defaultProvider": "openrouter",
   "defaultThinkingLevel": "high",
   "tuiMode": "regular",
   "fullscreenExitOutput": "transcript",
@@ -24,14 +20,12 @@
     "npm:pi-background-tasks@latest"
   ],
   "subagents": {
-    "defaultModel": "github-copilot/gpt-6-luna",
-    "defaultProvider": "github-copilot",
+    "defaultModel": "openai-codex/gpt-6-luna",
+    "defaultProvider": "openai-codex",
     "modelScope": {
       "enforce": true,
       "strict": true,
-      "allow": [
-        "github-copilot/gpt-6-luna"
-      ]
+      "allow": ["openai-codex/gpt-6-luna"]
     }
   },
   "externalEditor": "nvim",
