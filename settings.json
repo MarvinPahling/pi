@@ -2,10 +2,10 @@
   "theme": "dark",
   "lastChangelogVersion": "1.4.0",
   "enabledModels": [
-    "github-copilot/*"
+    "*"
   ],
   "defaultModel": "gpt-6-luna",
-  "defaultProvider": "github-copilot",
+  "defaultProvider": "openai",
   "defaultThinkingLevel": "max",
   "tuiMode": "regular",
   "fullscreenExitOutput": "transcript",
@@ -22,17 +22,20 @@
     "npm:pi-background-tasks@latest"
   ],
   "subagents": {
-    "defaultModel": "github-copilot/gpt-6-luna",
-    "defaultProvider": "github-copilot",
+    "defaultModel": "openai/gpt-6-luna",
+    "defaultProvider": "openai",
     "modelScope": {
       "enforce": true,
       "strict": true,
       "allow": [
-        "github-copilot/gpt-6-luna"
+        "openai/gpt-6-luna"
       ]
     }
   },
   "externalEditor": "nvim",
   "hideThinkingBlock": false,
-  "npmCommand": ["bun"]
+  "npmCommand": [
+    "bun"
+  ],
+  "deviceId": "7359fff5-5592-45b8-a6a9-2b9ddaf73fcf"
 }
